@@ -1,0 +1,380 @@
+/* Абаканский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011622;
+DELETE FROM nc_params WHERE object_id = 9134453839413011622 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011622, 9137434520013672035, '91.426189');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011622, 9137434520013672033, '53.722309');
+/* Амурский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011653;
+DELETE FROM nc_params WHERE object_id = 9134453839413011653 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011653, 9137434520013672035, '127.527173');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011653, 9137434520013672033, '50.290658');
+/* Архангельский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011635;
+DELETE FROM nc_params WHERE object_id = 9134453839413011635 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011635, 9137434520013672035, '40.518735');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011635, 9137434520013672033, '64.539304');
+/* Астраханский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011620;
+DELETE FROM nc_params WHERE object_id = 9134453839413011620 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011620, 9137434520013672035, '48.033574');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011620, 9137434520013672033, '46.347869');
+/* Барнаульский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011627;
+DELETE FROM nc_params WHERE object_id = 9134453839413011627 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011627, 9137434520013672035, '83.776282');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011627, 9137434520013672033, '53.348779');
+/* Белгородский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011599;
+DELETE FROM nc_params WHERE object_id = 9134453839413011599 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011599, 9137434520013672035, '36.588849');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011599, 9137434520013672033, '50.597467');
+/* Брянский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011591;
+DELETE FROM nc_params WHERE object_id = 9134453839413011591 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011591, 9137434520013672035, '34.364198');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011591, 9137434520013672033, '53.2434');
+/* Бурятский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011646;
+DELETE FROM nc_params WHERE object_id = 9134453839413011646 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011646, 9137434520013672035, '107.584125');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011646, 9137434520013672033, '51.833507');
+/* Владимирский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011590;
+DELETE FROM nc_params WHERE object_id = 9134453839413011590 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011590, 9137434520013672035, '40.40703');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011590, 9137434520013672033, '56.129042');
+/* Волгоградский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011619;
+DELETE FROM nc_params WHERE object_id = 9134453839413011619 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011619, 9137434520013672035, '44.516939');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011619, 9137434520013672033, '48.707103');
+/* Вологодский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011634;
+DELETE FROM nc_params WHERE object_id = 9134453839413011634 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011634, 9137434520013672035, '39.891568');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011634, 9137434520013672033, '59.220492');
+/* Воронежский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011598;
+DELETE FROM nc_params WHERE object_id = 9134453839413011598 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011598, 9137434520013672035, '39.200287');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011598, 9137434520013672033, '51.661535');
+/* Грозненский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011655;
+DELETE FROM nc_params WHERE object_id = 9134453839413011655 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011655, 9137434520013672035, '45.698197');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011655, 9137434520013672033, '43.317992');
+/* Екатеринбургский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011640;
+DELETE FROM nc_params WHERE object_id = 9134453839413011640 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011640, 9137434520013672035, '60.605514');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011640, 9137434520013672033, '56.838607');
+/* Ивановский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011589;
+DELETE FROM nc_params WHERE object_id = 9134453839413011589 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011589, 9137434520013672035, '40.973921');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011589, 9137434520013672033, '57.000348');
+/* Ижевский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011639;
+DELETE FROM nc_params WHERE object_id = 9134453839413011639 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011639, 9137434520013672035, '53.211463');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011639, 9137434520013672033, '56.852775');
+/* Иркутский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011650;
+DELETE FROM nc_params WHERE object_id = 9134453839413011650 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011650, 9137434520013672035, '104.28066');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011650, 9137434520013672033, '52.286387');
+/* Йошкар-Олинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011608;
+DELETE FROM nc_params WHERE object_id = 9134453839413011608 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011608, 9137434520013672035, '47.899878');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011608, 9137434520013672033, '56.634407');
+/* Казанский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011603;
+DELETE FROM nc_params WHERE object_id = 9134453839413011603 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011603, 9137434520013672035, '49.106585');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011603, 9137434520013672033, '55.795793');
+/* Калининградский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011629;
+DELETE FROM nc_params WHERE object_id = 9134453839413011629 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011629, 9137434520013672035, '20.507307');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011629, 9137434520013672033, '54.70739');
+/* Калужский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011588;
+DELETE FROM nc_params WHERE object_id = 9134453839413011588 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011588, 9137434520013672035, '36.252277');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011588, 9137434520013672033, '54.507014');
+/* Камчатский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011652;
+DELETE FROM nc_params WHERE object_id = 9134453839413011652 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011652, 9137434520013672035, '158.646764');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011652, 9137434520013672033, '53.024719');
+/* Кемеровский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011626;
+DELETE FROM nc_params WHERE object_id = 9134453839413011626 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011626, 9137434520013672035, '86.086838');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011626, 9137434520013672033, '55.354881');
+/* Кировский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011642;
+DELETE FROM nc_params WHERE object_id = 9134453839413011642 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011642, 9137434520013672035, '49.668077');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011642, 9137434520013672033, '58.602901');
+/* Краснодарский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011617;
+DELETE FROM nc_params WHERE object_id = 9134453839413011617 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011617, 9137434520013672035, '38.970157');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011617, 9137434520013672033, '45.023877');
+/* Красноярский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011625;
+DELETE FROM nc_params WHERE object_id = 9134453839413011625 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011625, 9137434520013672035, '92.852545');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011625, 9137434520013672033, '56.010569');
+/* Курганский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011641;
+DELETE FROM nc_params WHERE object_id = 9134453839413011641 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011641, 9137434520013672035, '65.344316');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011641, 9137434520013672033, '55.441606');
+/* Курский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011597;
+DELETE FROM nc_params WHERE object_id = 9134453839413011597 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011597, 9137434520013672035, '36.192647');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011597, 9137434520013672033, '51.730361');
+/* Липецкий */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011596;
+DELETE FROM nc_params WHERE object_id = 9134453839413011596 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011596, 9137434520013672035, '39.594719');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011596, 9137434520013672033, '52.61022');
+/* Магаданский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011647;
+DELETE FROM nc_params WHERE object_id = 9134453839413011647 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011647, 9137434520013672035, '150.808595');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011647, 9137434520013672033, '59.568182');
+/* Мурманский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011632;
+DELETE FROM nc_params WHERE object_id = 9134453839413011632 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011632, 9137434520013672035, '33.07454');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011632, 9137434520013672033, '68.969563');
+/* Нальчикский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011656;
+DELETE FROM nc_params WHERE object_id = 9134453839413011656 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011656, 9137434520013672035, '43.60709');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011656, 9137434520013672033, '43.484605');
+/* Владикавказский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011658;
+DELETE FROM nc_params WHERE object_id = 9134453839413011658 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011658, 9137434520013672035, '44.690476');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011658, 9137434520013672033, '43.024122');
+/* Махачкалинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011660;
+DELETE FROM nc_params WHERE object_id = 9134453839413011660 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011660, 9137434520013672035, '47.504646');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011660, 9137434520013672033, '42.984913');
+/* Московский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011661;
+DELETE FROM nc_params WHERE object_id = 9134453839413011661 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011661, 9137434520013672035, '37.619899');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011661, 9137434520013672033, '55.753676');
+/* Назрановский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011657;
+DELETE FROM nc_params WHERE object_id = 9134453839413011657 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011657, 9137434520013672035, '44.764641');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011657, 9137434520013672033, '43.225727');
+/* Костромской */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011587;
+DELETE FROM nc_params WHERE object_id = 9134453839413011587 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011587, 9137434520013672035, '40.926418');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011587, 9137434520013672033, '57.767683');
+/* Нижегородский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011610;
+DELETE FROM nc_params WHERE object_id = 9134453839413011610 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011610, 9137434520013672035, '44.005986');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011610, 9137434520013672033, '56.326887');
+/* Новгородский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011631;
+DELETE FROM nc_params WHERE object_id = 9134453839413011631 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011631, 9137434520013672035, '31.275475');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011631, 9137434520013672033, '58.521475');
+/* Новосибирский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011624;
+DELETE FROM nc_params WHERE object_id = 9134453839413011624 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011624, 9137434520013672035, '82.92043');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011624, 9137434520013672033, '55.030199');
+/* Омский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011621;
+DELETE FROM nc_params WHERE object_id = 9134453839413011621 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011621, 9137434520013672035, '73.368212');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011621, 9137434520013672033, '54.989342');
+/* Оренбургский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011607;
+DELETE FROM nc_params WHERE object_id = 9134453839413011607 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011607, 9137434520013672035, '55.096955');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011607, 9137434520013672033, '51.768199');
+/* Орловский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011595;
+DELETE FROM nc_params WHERE object_id = 9134453839413011595 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011595, 9137434520013672035, '36.063514');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011595, 9137434520013672033, '52.970306');
+/* Пензенский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011605;
+DELETE FROM nc_params WHERE object_id = 9134453839413011605 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011605, 9137434520013672035, '45.019529');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011605, 9137434520013672033, '53.194546');
+/* Пермский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011636;
+DELETE FROM nc_params WHERE object_id = 9134453839413011636 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011636, 9137434520013672035, '56.234195');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011636, 9137434520013672033, '58.010259');
+/* Петрозаводский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011633;
+DELETE FROM nc_params WHERE object_id = 9134453839413011633 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011633, 9137434520013672035, '34.359688');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011633, 9137434520013672033, '61.789036');
+/* Приморский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011648;
+DELETE FROM nc_params WHERE object_id = 9134453839413011648 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011648, 9137434520013672035, '131.882421');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011648, 9137434520013672033, '43.116391');
+/* Псковский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011630;
+DELETE FROM nc_params WHERE object_id = 9134453839413011630 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011630, 9137434520013672035, '28.331786');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011630, 9137434520013672033, '57.819365');
+/* Ростовский-на-Дону */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011616;
+DELETE FROM nc_params WHERE object_id = 9134453839413011616 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011616, 9137434520013672035, '39.718705');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011616, 9137434520013672033, '47.222531');
+/* Рязанский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011586;
+DELETE FROM nc_params WHERE object_id = 9134453839413011586 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011586, 9137434520013672035, '39.735243');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011586, 9137434520013672033, '54.629148');
+/* Самарский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011604;
+DELETE FROM nc_params WHERE object_id = 9134453839413011604 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011604, 9137434520013672035, '50.101801');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011604, 9137434520013672033, '53.195533');
+/* Санкт-Петербургский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011628;
+DELETE FROM nc_params WHERE object_id = 9134453839413011628 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011628, 9137434520013672035, '30.315868');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011628, 9137434520013672033, '59.939095');
+/* Саратовский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011606;
+DELETE FROM nc_params WHERE object_id = 9134453839413011606 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011606, 9137434520013672035, '46.03582');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011606, 9137434520013672033, '51.531528');
+/* Смоленский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011593;
+DELETE FROM nc_params WHERE object_id = 9134453839413011593 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011593, 9137434520013672035, '32.044128');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011593, 9137434520013672033, '54.782526');
+/* Сочинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011614;
+DELETE FROM nc_params WHERE object_id = 9134453839413011614 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011614, 9137434520013672035, '39.722882');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011614, 9137434520013672033, '43.581509');
+/* Ставропольский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011615;
+DELETE FROM nc_params WHERE object_id = 9134453839413011615 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011615, 9137434520013672035, '41.969065');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011615, 9137434520013672033, '45.044502');
+/* Сыктывкарский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011643;
+DELETE FROM nc_params WHERE object_id = 9134453839413011643 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011643, 9137434520013672035, '50.835734');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011643, 9137434520013672033, '61.668695');
+/* Тамбовский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011594;
+DELETE FROM nc_params WHERE object_id = 9134453839413011594 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011594, 9137434520013672035, '41.452238');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011594, 9137434520013672033, '52.721246');
+/* Тверской */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011592;
+DELETE FROM nc_params WHERE object_id = 9134453839413011592 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011592, 9137434520013672035, '35.911896');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011592, 9137434520013672033, '56.859611');
+/* Тольяттинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011602;
+DELETE FROM nc_params WHERE object_id = 9134453839413011602 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011602, 9137434520013672035, '49.41918');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011602, 9137434520013672033, '53.508714');
+/* Томский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011623;
+DELETE FROM nc_params WHERE object_id = 9134453839413011623 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011623, 9137434520013672035, '84.948691');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011623, 9137434520013672033, '56.484725');
+/* Тульский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011601;
+DELETE FROM nc_params WHERE object_id = 9134453839413011601 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011601, 9137434520013672035, '37.617752');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011601, 9137434520013672033, '54.193033');
+/* Тюменский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011637;
+DELETE FROM nc_params WHERE object_id = 9134453839413011637 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011637, 9137434520013672035, '65.534328');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011637, 9137434520013672033, '57.153033');
+/* Ульяновский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011609;
+DELETE FROM nc_params WHERE object_id = 9134453839413011609 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011609, 9137434520013672035, '48.402243');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011609, 9137434520013672033, '54.317002');
+/* Уфимский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011613;
+DELETE FROM nc_params WHERE object_id = 9134453839413011613 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011613, 9137434520013672035, '55.957838');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011613, 9137434520013672033, '54.734768');
+/* Хабаровский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011651;
+DELETE FROM nc_params WHERE object_id = 9134453839413011651 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011651, 9137434520013672035, '135.057732');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011651, 9137434520013672033, '48.472584');
+/* Чебоксарский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011612;
+DELETE FROM nc_params WHERE object_id = 9134453839413011612 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011612, 9137434520013672035, '47.248887');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011612, 9137434520013672033, '56.1439');
+/* Челябинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011638;
+DELETE FROM nc_params WHERE object_id = 9134453839413011638 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011638, 9137434520013672035, '61.400856');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011638, 9137434520013672033, '55.160283');
+/* Черкесский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011659;
+DELETE FROM nc_params WHERE object_id = 9134453839413011659 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011659, 9137434520013672035, '42.04677');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011659, 9137434520013672033, '44.226863');
+/* Читинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011649;
+DELETE FROM nc_params WHERE object_id = 9134453839413011649 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011649, 9137434520013672035, '113.499396');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011649, 9137434520013672033, '52.033929');
+/* Чукотский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011644;
+DELETE FROM nc_params WHERE object_id = 9134453839413011644 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011644, 9137434520013672035, '177.501522');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011644, 9137434520013672033, '64.731434');
+/* Элистинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011618;
+DELETE FROM nc_params WHERE object_id = 9134453839413011618 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011618, 9137434520013672035, '44.270181');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011618, 9137434520013672033, '46.308309');
+/* Южно-Сахалинский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011654;
+DELETE FROM nc_params WHERE object_id = 9134453839413011654 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011654, 9137434520013672035, '142.738068');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011654, 9137434520013672033, '46.959118');
+/* Якутский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011645;
+DELETE FROM nc_params WHERE object_id = 9134453839413011645 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011645, 9137434520013672035, '129.732555');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011645, 9137434520013672033, '62.028098');
+/* Ярославский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011600;
+DELETE FROM nc_params WHERE object_id = 9134453839413011600 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011600, 9137434520013672035, '39.893822');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011600, 9137434520013672033, '57.626569');
+/* Саранский */
+UPDATE nc_objects SET version = version + 1 WHERE object_id = 9134453839413011611;
+DELETE FROM nc_params WHERE object_id = 9134453839413011611 AND attr_id IN (9137434520013672033 /* Lattitude, dd */, 9137434520013672035 /* Longitude, dd */);
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011611, 9137434520013672035, '45.184792');
+INSERT INTO nc_params (object_id, attr_id, value) VALUES (9134453839413011611, 9137434520013672033, '54.180925');
